@@ -11,7 +11,7 @@ client.on('message', msg => {
   }
 });
 
-client.login('NjY1NTg4MzAwMDQzNjQ5MDY1.XhoQPA.XY7g8NW8n4MQVTwBhfH5JNaEVdY')
+client.login('NjY1NjIxNDU3NzI3OTE0MDI0.XhoSag.ln6-HTAPUpYm_Ms9sovE9wS_KRo')
 .then(
   msg => console.log("Olumlu " + msg)
 )
