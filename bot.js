@@ -11,4 +11,10 @@ client.on('message', msg => {
   }
 });
 
-client.login('NjY1NTg4MzAwMDQzNjQ5MDY1.Xhnzyg.F6j40CUB4n0YGob6aifgNcWxbes');
+client.login('NjY1NTg4MzAwMDQzNjQ5MDY1.XhoQPA.XY7g8NW8n4MQVTwBhfH5JNaEVdY')
+.then(
+  msg => console.log("Olumlu " + msg)
+)
+.catch(
+  err => console.log("Hatalı " + err)
+);
